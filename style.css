@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    background-image: url(./img/Polygon\ 1.png);
+    background-repeat: no-repeat;
+}
+.header-img{
+    position: absolute;
+}
+.header-list{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+}
+.header-link{
+    text-decoration: none;
+    width: 102px;
+height: 33px;
+font-family: Poppins;
+font-size: 22px;
+font-weight: 400;
+line-height: 33px;
+letter-spacing: 0.02em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: rgba(37, 38, 65, 1);
+}
+.header-link:hover{
+    color: rgba(244, 140, 6, 1);
+}
+.header-logo{
+    text-decoration: none;
+    width: 128px;
+height: 48px;
+font-family: Poppins;
+font-size: 32px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0.04em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: rgba(17, 60, 73, 1);
+}
+.header-span{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.header-button{
+    width: 160px;
+    margin-right: 10px;
+height: 60px;
+border-radius: 80px;
+font-size: 20px;
+opacity: 0px;
+background: rgba(244, 140, 6, 1);
+color: white;
+border: none;
+}
+.header-button:hover{
+color: rgba(108, 108, 108, 1);
+border:1px solid rgb(48, 48, 48);
+background: white;
+}
